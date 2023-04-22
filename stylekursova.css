@@ -17,9 +17,7 @@ ul {
 .li1{
 	position: relative;
 	display:inline-block;
-	padding:10px;
-	background-color:white;
-	
+	padding:10px;	
 }
 .drop-li:{
 	background-color:black;
@@ -111,4 +109,68 @@ h6{
 }
 .kartopel{
 	font-size:17px
+}
+.dsh{
+	display: flex;
+	gap: 10px;
+}
+.dsh div{
+	width: 100%;
+}
+.dsh div img {
+	max-width: 100%;
+}
+.dsh{
+	margin:70px;
+}
+.st{
+	margin:5px;
+}
+.glow-button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 3px;
+  margin: 10px 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 40px #FE634E inset, 0 0 0 0 #FE634E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: black;
+  transition: .15s ease-in-out;
+  border-radius:600px;
+}
+.glow-button:hover {
+  box-shadow: 0 0 10px 0 #BC0022 inset, 0 0 10px 4px #BC0022;
+}
+.ksh{
+	width:15px;
+}
+.ftext{
+	color:white;
+	
+}
+footer{
+	display: flex;
+	justify-content: space-between;
+	background-color:black;
+	padding:50px 20px;
+}
+.fptext{
+	color:grey;
+font-size:10px;	
+}
+.fcon .ftext{
+	display:flex;
+}
+.instcon .instimg .fcon{
+	display:block;
+}
+textarea{
+	resize: none;
+}
+@media screen and (max-width:700px){
+	.dsh {
+		display: block;
+	}
 }
